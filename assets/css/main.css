@@ -1,0 +1,145 @@
+html{
+  front-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+body {
+
+  background-color: #fff;
+  }
+.shadow{
+  width: 1060px;
+  background-color: #fff;
+  margin: auto;
+  /* padding: 0 48px; */
+  box-shadow: 0 0 10px #000;
+}
+
+header, footer, .shadow{
+  width: 966px;
+  margin: auto;
+  padding: 0 48px;
+  background-color: white
+  }
+
+.logo-wrapper{
+  height: 130px;
+  line-height: 130px;
+    }
+ header{
+ background-color: white;
+ margin-bottom: 40px;
+}
+header ul{
+width: 100%;
+height: 40px;
+background: linear-gradient(to top, #000000, #a9a9a9);
+}
+
+header ul li{
+display: block;
+float: left;
+width: 144px;
+height: 100%;
+padding-left: 25px;
+line-height: 40px;
+color: #fff;
+}
+header ul li:hover{
+background-color: rgba(0, 0, 0, 0.2);
+
+/* border: 0 1px; */
+
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  weight:100%;
+  height:100%;
+}
+.container{
+display:block;
+width:1060px;
+margin-top:29px;
+padding-bottom: 60px;
+}
+
+ aside{
+  display: block;
+  float: left;
+  width: 240px;
+  margin-left:40px;
+  /* border:1px solid #d6d6d6; */
+}
+aside ul li{
+  height:40px;
+  line-height:40px;
+  padding-left: 24px;
+ border-bottom: 1px solid #FFFFFF;
+ border: solid #696969 1px;
+  /* border:solid #d6d6d6; */
+}
+.content{
+float: left;
+width: 678px;
+margin-left: 48px;
+/* border: solid #696969 1px; */
+
+}
+aside ul li:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+padding-left: 50px;
+  color: #000000;
+}
+.article{
+width: 630px;
+padding: 40px 24px;
+
+
+
+}
+.Image-wrapper{
+display: block;
+width: 678px;
+height: 400px;
+line-height: 400px;
+padding-top: 40px;
+margin:auto;
+ border: solid #696969 1px;
+}
+p{
+  display: inline-block;
+  /* width: 678px; */
+font-size: 10pt;
+line-height: 2px;
+ /* padding: 0 24px ; */
+padding: 40px 24px 0;
+}
+  .clearfix,
+  .clearfix:before,
+  .clearfix:after{
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+  }
+  footer{
+background-color: #f0f0f0;
+/* margin-bottom: 60px; */
+
+  }
+  footer ul li{
+  display: block;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+    /* padding-left: 25px; */
+  padding: 0 36px 0 24px;
+
+  }
+footer ul li:last-child{
+/* display:inline-block; */
+width: 460px;
+text-align: right;
+padding-right: 24px;
+}
